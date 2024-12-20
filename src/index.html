@@ -10,16 +10,61 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
   <header class="hero">
     <div class="container">
       <img class="hero__logo" src="./images/FloripaLogo.png" alt="Logo Réveillon Floripa 2025">
       <p class="hero__text">Réveillon Floripa 2025 começa em 10d 12h 20m 15s</p>
+      <div class="infos-bar">
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Localização</b>
+            Avenida Beira Mar - Florianópolis
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Preço</b>
+            Entrada Gratuita
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Data</b>
+            31/12/2024 às 23hrs
+          </li>
+        </ul>
+        <a class="button button--primary"   href="#">
+          Garanta sua caga
+        </a>
+      </div>
     </div>
   </header>
 
+  <section class="event event--firstEvent">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Evento 01</h2>
+        <p class="event__details__title">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ipsam doloribus eius voluptates incidunt reiciendis ad consectetur, officiis quia similique aliquam dignissimos assumenda modi laudantium odit, commodi unde non et aspernatur nulla eum. In repellat, quia optio rerum quibusdam fugit, reiciendis sequi, pariatur dolorum ipsum sunt ex id accusamus adipisci.
+        </p>
+      </div>
+      <img class="event__image" src="./images/FloripaEvento01.jpg" alt="First Event">
+    </div>
+  </section>
 
+  <section class="event event--secondEvent event--imageLeft">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Evento 02</h2>
+        <p class="event__details__title">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima ipsam doloribus eius voluptates incidunt reiciendis ad consectetur, officiis quia similique aliquam dignissimos assumenda modi laudantium odit, commodi unde non et aspernatur nulla eum. In repellat, quia optio rerum quibusdam fugit, reiciendis sequi, pariatur dolorum ipsum sunt ex id accusamus adipisci.
+        </p>
+      </div>
+      <img class="event__image" src="./images/FloripaEvento02.jpg" alt="Second Event">
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="./scripts/main.js"></script>
 </body>
 </html>
